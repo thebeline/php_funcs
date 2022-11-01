@@ -1,0 +1,20 @@
+{
+    "name": "thebeline/php_funcs",
+    "description": "Some helpful PHP functions I have developed/collected over the years",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Thebeline\\PhpFuncs\\": "src/"
+        },
+	"files": [
+            "src/.functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Mike Mulligan",
+            "email": "mike@belineperspectives.com"
+        }
+    ],
+    "require": {}
+}
